@@ -12,12 +12,12 @@ public class DiscountService {
 
 
     public BigDecimal checkDiscount(BigDecimal totalPrice) {
-        if(!applyDiscount) { eturn
-        if(applyDiscount ) {
-            if (priceLimit.compareTo(totalPrice) == 1) {
-                return totalPrice.multiply(BigDecimal.valueOf(discount));
-            }
-        }
-        return ;
+//        if(!applyDiscount) { eturn
+//        if(applyDiscount ) {
+//            if (priceLimit.compareTo(totalPrice) == 1) {
+//                return totalPrice.multiply(BigDecimal.valueOf(discount));
+//            }
+//        }
+        return null;
     }
 }
